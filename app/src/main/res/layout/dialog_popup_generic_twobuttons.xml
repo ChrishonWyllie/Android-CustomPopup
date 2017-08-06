@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!-- First layout -->
+
+    <RelativeLayout
+        android:id="@+id/dialogpopup_titlelabel_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialogpopup_titlelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:clickable="true"
+            android:text="Choose an option"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dialogpopup_first_dividerview"
+        android:layout_below="@+id/dialogpopup_titlelabel_rel_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#B6B6B6"
+        />
+
+
+
+
+
+
+
+
+
+    <!-- Second layout -->
+
+    <RelativeLayout
+        android:id="@+id/dialogpopup_second_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogpopup_first_dividerview">
+
+        <Button
+            android:id="@+id/dialogpopup_first_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:clickable="true"
+            android:text="Some option"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <View
+        android:id="@+id/dialogpopup_second_dividerview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/dialogpopup_second_rel_layout"
+        />
+
+
+
+
+
+    <!-- Third layout -->
+
+    <RelativeLayout
+        android:id="@+id/dialogpopup_third_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogpopup_second_dividerview">
+
+        <Button
+            android:id="@+id/dialogpopup_second_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:clickable="true"
+            android:text="Some other option"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dialogpopup_third_dividerview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/dialogpopup_third_rel_layout"
+        />
+
+
+
+    <!-- Fourth layout -->
+
+
+    <RelativeLayout
+        android:id="@+id/dialogpopup_fourth_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogpopup_third_dividerview">
+
+        <Button
+            android:id="@+id/dialogpopup_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dialogpopup_fourth_dividerview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/dialogpopup_fourth_rel_layout"
+        />
+
+
+
+</RelativeLayout>
